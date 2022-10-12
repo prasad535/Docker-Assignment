@@ -73,4 +73,56 @@
 >***Result:***
 
 
-## 6. 
+## 6. docker rm 
+    Command is used to remove containers
+
+    Syntax : docker rm <container_name>
+
+***Example***
+
+    docker rm nginx
+
+>***Result:***
+
+
+## 7. docker images
+    Command is used to list the all the images
+
+    Syntax : docker images
+
+***Example***
+
+    docker images
+
+>***Result***
+
+
+
+## 8. docker rmi 
+    Command is used to remove the images
+
+    syntax  :   docker rmi <image_name>
+
+***Example***
+
+    docker image alpine
+
+>***Result:***
+
+
+## 9. docker pull
+    Command is used to download the image locally. 
+
+    Syntax  : docker pull <image_name>
+
+***Example***
+
+    docker pull redis
+
+>***Result***
+
+
+## 10. docker push
+    Command is used to push the image to docker repository.
+
+    Syntax  :   docker push image
