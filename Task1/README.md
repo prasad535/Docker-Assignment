@@ -35,7 +35,7 @@
     docker start 83703NSH*S234JSDJFWRF  # using container ID
 
 >***Result:***
-![](/./Screenshots/start.png)
+![](/./Screenshots/2022-10-18-00-27-39.png)
 
 ## 3. docker stop
     Command is used to stop the running container. 
@@ -47,7 +47,7 @@
     docker container alpine-container
 
 >***Result***
-![](/./Screenshots/stop.png)
+![](/./Screenshots/2022-10-18-00-26-23.png)
 
 ## 4. docker restart 
     Command is used to restart the container.
@@ -72,7 +72,7 @@
     docker run nginx
 
 >***Result:***
-
+![](/./Screenshots/2022-10-18-00-29-43.png)
 
 ## 6. docker rm 
     Command is used to remove containers
@@ -84,7 +84,7 @@
     docker rm nginx
 
 >***Result:***
-
+![](/./Screenshots/2022-10-18-00-30-26.png)
 
 ## 7. docker images
     Command is used to list the all the images
@@ -96,9 +96,7 @@
     docker images
 
 >***Result***
-
-
-
+![](/./Screenshots/2022-10-18-00-15-34.png)
 ## 8. docker rmi 
     Command is used to remove the images
 
@@ -109,7 +107,7 @@
     docker image alpine
 
 >***Result:***
-
+![](/./Screenshots/2022-10-18-00-31-47.png)
 
 ## 9. docker pull
     Command is used to download the image locally. 
@@ -121,9 +119,16 @@
     docker pull redis
 
 >***Result***
-
+![](/./Screenshots/2022-10-18-00-32-51.png)
 
 ## 10. docker push
     Command is used to push the image to docker repository.
 
     Syntax  :   docker push image
+
+***Example***
+
+    docker push image_name
+
+>***Result***
+![](/./Screenshots/2022-10-18-00-34-25.png)
