@@ -9,6 +9,7 @@
     docker ps -a        # -a or -all tag return all the containers irrespective of state.
 
 >***Result:***
+![](/./Screenshots/ps.png)
 
 
 ## 2. docker create
@@ -21,7 +22,7 @@
     dcker create --name alpine-container alpine
 
 >***Result:***
-
+![](/./Screenshots/create.png)
 
 ## 3. docker start
     Command is used to start the container which is already created. 
@@ -34,7 +35,7 @@
     docker start 83703NSH*S234JSDJFWRF  # using container ID
 
 >***Result:***
-
+![](/./Screenshots/start.png)
 
 ## 3. docker stop
     Command is used to stop the running container. 
@@ -46,7 +47,7 @@
     docker container alpine-container
 
 >***Result***
-
+![](/./Screenshots/stop.png)
 
 ## 4. docker restart 
     Command is used to restart the container.
@@ -58,7 +59,7 @@
     docker stop alpine-container
 
 >***Result:***
-
+![](/./Screenshots/restart.png)
 
 
 ## 5. docker run
