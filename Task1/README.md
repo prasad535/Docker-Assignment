@@ -132,3 +132,28 @@
 
 >***Result***
 ![](/./Screenshots/2022-10-18-00-34-25.png)
+
+## 11. docker kill <container_name>
+
+    command used to force shutdown the container.
+
+    syntax : docker kill <container_name or Container_id>
+
+***Example***
+
+    docker kill pensive_parlman
+
+>***Result:***
+![](/./Screenshots/2022-10-18-14-58-40.png/)
+
+## 12. docker logs
+
+    Command used to get the history of the container. 
+
+    syntax : docker logs <container_name>
+
+***Example***
+
+    docker logs pensive_perlman
+
+>***Result:***
